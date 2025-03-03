@@ -1,0 +1,209 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav .nav-links a:hover {
+    color: #ff6347;
+}
+
+/* Hero Section */
+/* Hero Section */
+.hero {
+    background-image: url('D:/KULIAH/SEMESTER IV/PBW/Portofolio/WhatsApp Image 2025-03-03 at 21.38.26_a6a5a445.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay */
+    z-index: 1;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #555;
+}
+
+/* CSS untuk section tentang */
+/* CSS untuk section tentang */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.image-content {
+    width: 200px; /* Sesuaikan ukuran gambar */
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10%; /* Untuk membuat gambar menjadi lingkaran */
+    margin-right: 20px; /* Jarak antara gambar dan teks */
+}
+
+.image-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Untuk memastikan gambar di-crop dengan benar */
+}
+
+.text-content {
+    flex: 1;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Grid responsif */
+    gap: 20px; /* Jarak antara item */
+}
+
+.portfolio-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%; /* Gambar mengisi lebar container */
+    height: auto; /* Menjaga aspek rasio gambar */
+    border-radius: 8px; /* Sudut melengkung (opsional) */
+}
+
+.portfolio-item h3 {
+    margin: 15px 0 10px;
+}
+
+.portfolio-item p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Contact Form */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

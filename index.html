@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Tambahkan Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <a href="#beranda" class="logo">Portofolio Sidqi</a>
+            <ul class="nav-links">
+                <!-- Ganti teks dengan ikon media sosial -->
+                <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Beranda -->
+    <section id="beranda" class="hero">
+        <div class="container">
+            <h1>Selamat Datang di Portofolio Sidqi</h1>
+            <a href="#portofolio" class="btn">Lihat Portofolio</a>
+        </div>
+    </section>
+
+    <section id="tentang" class="section">
+        <div class="container">
+            <div class="about-content">
+                <!-- Gambar di sebelah kiri -->
+                <div class="image-content">
+                    <img src="D:\KULIAH\SEMESTER IV\PBW\Portofolio\WhatsApp Image 2025-03-03 at 22.39.55_c26abb16.jpg" alt="Tentang Saya">
+                </div>
+    
+                <!-- Konten teks di sebelah kanan -->
+                <div class="text-content">
+                    <h2>Tentang Saya</h2> <!-- Judul "Tentang Saya" -->
+                    <p>Nama saya adalah Muhammad Sidqi Alfareza, dengan NPM 2308107010040. Saat ini saya sedang menempuh pendidikan di jurusan Informatika universitas Syiah Kuala. Saya merupakan alumni dari MAS Jeumala Amal, sebagai alumni santri, saya ingin mewujudkan mimpi untuk mengembangkan platform yang dapat memberikan peluang bagi seluruh orang termasuk santri agar mudah berkecimpung ke bidang IT.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portofolio -->
+    <div class="portfolio-grid">
+        <div class="portfolio-item">
+            <img src="D:\KULIAH\SEMESTER IV\PBW\Portofolio\WhatsApp Image 2025-03-03 at 23.55.52_6d3be611.jpg" alt="Proyek 1"> <!-- Foto Anda -->
+            <h3>Pelatihan desain grafis</h3>
+            <p>Gema Ramadhan 2024</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="D:\KULIAH\SEMESTER IV\PBW\Portofolio\WhatsApp Image 2025-03-04 at 00.11.07_81b0d06e.jpg" alt="Proyek 2">
+            <h3>Wisuda</h3>
+            <p>Wisuda Dayah Jeumala Amal 2023</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="D:\KULIAH\SEMESTER IV\PBW\Portofolio\WhatsApp Image 2025-03-04 at 00.15.16_df94eef0.jpg" alt="Proyek 3">
+            <h3>Pakarmaru 2023</h3>
+        </div>
+    </div>
+
+    <!-- Kontak -->
+    <section id="kontak" class="section">
+        <div class="container">
+            <h2>Kontak</h2>
+            <form id="contact-form">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Portofolio Saya</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
